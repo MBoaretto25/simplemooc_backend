@@ -122,4 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Media files (Images, Video, etc...)
-MEDIA_ROOT = os.path.join(BASE_DIR, 'simplemooc_backend', 'courses/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'simplemooc_backend', 'media')
+MEDIA_URL = '/media/'
