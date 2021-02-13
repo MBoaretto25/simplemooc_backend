@@ -15,7 +15,9 @@ class Course(models.Model):
 
     slug = models.SlugField('Atalho', unique=True)
 
-    description = models.TextField('Descrição', blank=True)
+    description = models.TextField('Descrição Simples', blank=True)
+
+    about = models.TextField('Sobre o Curso', blank=True)
 
     start_date = models.DateField('Data de Ínicio', null=True, blank=True)
 
