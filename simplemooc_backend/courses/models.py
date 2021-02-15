@@ -43,4 +43,4 @@ class Course(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
-        return "{} ({})".format(self.name, self.slug)
+        return "{}".format(self.name)
